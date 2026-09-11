@@ -1,0 +1,17 @@
+# Cache e arquivos temporários do KiCad
+*.tmp
+*.bak
+*-bak
+*-lck
+*.lck
+*_old
+
+# Arquivos de backup automático
+*.kicad_prl
+
+# Diretórios temporários de saída e resgates
+_autosave-*
+/fp-info-cache
+
+# (Opcional) Gerbers e exportações de fabricação se preferir gerar sob demanda
+# /gerber/
