@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AD829ARZ") (type "KiCad") (uri "${KIPRJMOD}/lib/AD829ARZ") (options "") (descr ""))
+	(lib (name "coaxial-jack-smb-h") (type "KiCad") (uri "${KIPRJMOD}/lib/73100-0103") (options "") (descr "coaxial-jack-smb-h"))
+)

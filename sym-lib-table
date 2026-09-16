@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "coaxial-jack-smb-h") (type "KiCad") (uri "${KIPRJMOD}/lib/73100-0103/73100-0103.kicad_sym") (options "") (descr ""))
+	(lib (name "circuitoABC_lib") (type "KiCad") (uri "${KIPRJMOD}/lib/circuitoABC_lib.kicad_sym") (options "") (descr ""))
+	(lib (name "AD829ARZ") (type "KiCad") (uri "${KIPRJMOD}/lib/AD829ARZ/AD829ARZ.kicad_sym") (options "") (descr ""))
+)
