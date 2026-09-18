@@ -121,13 +121,16 @@ objetivos do presente trabalho.
 
 ## Esquemático da PCB
 
-A Figura [1](#fig:circuitoABC_schematic){reference-type="ref"
-reference="fig:circuitoABC_schematic"} mostra o esquemático da PCB
+A Figura mostra o esquemático da PCB
 elaborada no software KiCad.
 
 ![Esquemático da
-PCB.](images/circuitoABC_schematic.pdf){#fig:circuitoABC_schematic
-width="130%"}
+PCB.](images/circuitoABC_schematic.pdf)
+
+Esquemático da PCB.
+
+Esquemático da
+PCB.
 
 ### Configuração da interface PXI
 
@@ -169,33 +172,28 @@ proteção está presente.
 Foram utilizados 3 relés duplos, ou seja, 3 circuitos integrados nos
 quais cada um contém 2 relés que são ativados simultaneamente. Os relés
 1 e 2 realizam a troca de conexão dos circuitos com o DUT. O relé 3
-realiza a troca de resistor de proteção dinamicamente. A tabela
-[1](#table:reles){reference-type="ref" reference="table:reles"} descreve
+realiza a troca de resistor de proteção dinamicamente. A tabela descreve
 a configuração de cada relé.
 
-::: {#table:reles}
-  -------- --------------------- --------------------------------
-  Relé 1   Normalmente Aberto    Conecta o porta e dreno do DUT
-                                 ao Circuito TID
-           Normalmente Fechado   Conecta o porta e dreno do DUT
-                                 ao Circuito SEB ou Pré-Amp.
-  Relé 2   Normalmente Aberto    Conecta o porta e dreno do DUT
-                                 ao Circuito Pré-Amplificador
-           Normalmente Fechado   Conecta o porta e dreno do DUT
-                                 ao Circuito SEB
-  Relé 3   Normalmente Aberto    Utiliza o resistores RP2 a RP9
-                                 como resistor de proteção
-           Normalmente Fechado   Utiliza o resistor RP1 como
-                                 resistor de proteção
-  -------- --------------------- --------------------------------
+
+|-------- |--------------------- |--------------------------------
+|Relé 1   |Normalmente Aberto    |Conecta o porta e dreno do DUT ao Circuito TID                              
+|         |Normalmente Fechado   |Conecta o porta e dreno do DUT ao Circuito SEB ou Pré-Amp.
+|-------- |--------------------- |--------------------------------
+|Relé 2   |Normalmente Aberto    |Conecta o porta e dreno do DUT ao Circuito Pré-Amplificador                               
+|         |Normalmente Fechado   |Conecta o porta e dreno do DUT ao Circuito SEB
+|-------- |--------------------- |--------------------------------
+|Relé 3   |Normalmente Aberto    |Utiliza o resistores RP2 a RP9 como resistor de proteção                              
+|         |Normalmente Fechado   |Utiliza o resistor RP1 como resistor de proteção
+|         |                      |
+|-------- |--------------------- |--------------------------------
 
   : Configuração de cada relé.
 :::
 
 ## Layout da PCB
 
-A Figura [4](#fig:circuitoABC_layout){reference-type="ref"
-reference="fig:circuitoABC_layout"} mostra o layout da PCB elaborada no
+A Figura mostra o layout da PCB elaborada no
 software KiCad. Na esquerda da PCB se encontra o Circuito SEB e Circuito
 TID. Na borda da placa, encontram-se os conectores dos sinais de entrada
 e saída do Circuito SEB. Em seguida é visível o arranjo de resistores de
@@ -204,23 +202,22 @@ plataforma PXI. No centro da PCB encontram-se os pinos para conexão com
 a PCB-filha e, portanto, conexão com o DUT. Na direita da PCB há o
 Circuito Pré-Amplificador.
 
-<figure id="fig:circuitoABC_layout">
-<figure id="fig:circuitoABC_layout_B">
-<embed src="images/circuitoABC_layout_B_zoom.pdf" />
-<figcaption>Layout da camada inferior da PCB.</figcaption>
-</figure>
-<figure id="fig:circuitoABC_layout_F">
-<embed src="images/circuitoABC_layout_F_zoom.pdf" />
-<figcaption>Layout da camada superior da PCB.</figcaption>
-</figure>
-<figcaption>Layout das camadas inferior e superior da PCB.</figcaption>
-</figure>
+![Layout da camada inferior da PCB.](images/circuitoABC_layout_B_zoom.png)
 
-A Figura [5](#fig:circuitoABC_3d){reference-type="ref"
-reference="fig:circuitoABC_3d"} mostra o modelo 3D da PCB no software
+Layout da camada inferior da PCB.
+
+![Layout da camada superior da PCB](images/circuitoABC_layout_F_zoom.png)
+
+Layout da camada superior da PCB
+
+
+A Figura mostra o modelo 3D da PCB no software
 KiCad, no qual é possível visualizar todos os componentes da placa e as
 legendas impressas na camada de serigrafia (*silkscreen*) dos conectores
 de entrada e saída dos sinais.
 
 ![Modelo 3D da PCB no software KiCad. Visualização da camada
-inferior.](images/circuitoABC_3d.png){#fig:circuitoABC_3d width="70%"}
+inferior.](images/circuitoABC_3d.png)
+
+Modelo 3D da PCB no software KiCad. Visualização da camada
+inferior.
