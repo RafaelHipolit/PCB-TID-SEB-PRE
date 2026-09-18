@@ -125,7 +125,7 @@ A Figura mostra o esquemático da PCB
 elaborada no software KiCad.
 
 ![Esquemático da
-PCB.](images/circuitoABC_schematic.pdf)
+PCB.](images/circuitoABC_schematic.jpg)
 
 Esquemático da PCB.
 
@@ -176,20 +176,19 @@ realiza a troca de resistor de proteção dinamicamente. A tabela descreve
 a configuração de cada relé.
 
 
-|-------- |--------------------- |--------------------------------
-|Relé 1   |Normalmente Aberto    |Conecta o porta e dreno do DUT ao Circuito TID                              
-|         |Normalmente Fechado   |Conecta o porta e dreno do DUT ao Circuito SEB ou Pré-Amp.
-|-------- |--------------------- |--------------------------------
-|Relé 2   |Normalmente Aberto    |Conecta o porta e dreno do DUT ao Circuito Pré-Amplificador                               
-|         |Normalmente Fechado   |Conecta o porta e dreno do DUT ao Circuito SEB
-|-------- |--------------------- |--------------------------------
-|Relé 3   |Normalmente Aberto    |Utiliza o resistores RP2 a RP9 como resistor de proteção                              
-|         |Normalmente Fechado   |Utiliza o resistor RP1 como resistor de proteção
-|         |                      |
-|-------- |--------------------- |--------------------------------
+| -------- |--------------------- |---------------------------------|    
+| -------- |--------------------- |---------------------------------|                                
+| Relé 1   |Normalmente Aberto    |Conecta o porta e dreno do DUT ao Circuito TID|                              
+|         |Normalmente Fechado   |Conecta o porta e dreno do DUT ao Circuito SEB ou Pré-Amp.|
+| -------- |--------------------- |--------------------------------|
+| Relé 2   |Normalmente Aberto    |Conecta o porta e dreno do DUT ao Circuito Pré-Amplificador     |                          
+|         |Normalmente Fechado   |Conecta o porta e dreno do DUT ao Circuito SEB|
+| -------- |--------------------- |--------------------------------|
+| Relé 3   |Normalmente Aberto    |Utiliza o resistores RP2 a RP9 como resistor de proteção     |                         
+|         |Normalmente Fechado   |Utiliza o resistor RP1 como resistor de proteção|
+| -------- |--------------------- |--------------------------------|
 
-  : Configuração de cada relé.
-:::
+Configuração de cada relé.
 
 ## Layout da PCB
 
@@ -202,11 +201,11 @@ plataforma PXI. No centro da PCB encontram-se os pinos para conexão com
 a PCB-filha e, portanto, conexão com o DUT. Na direita da PCB há o
 Circuito Pré-Amplificador.
 
-![Layout da camada inferior da PCB.](images/circuitoABC_layout_B_zoom.png)
+![Layout da camada inferior da PCB.](images/circuitoABC_layout_B_zoom.jpg)
 
 Layout da camada inferior da PCB.
 
-![Layout da camada superior da PCB](images/circuitoABC_layout_F_zoom.png)
+![Layout da camada superior da PCB](images/circuitoABC_layout_F_zoom.jpg)
 
 Layout da camada superior da PCB
 
